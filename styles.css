@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main#main {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: rgb(219, 219, 219);
+}
+
+#main header {
+    width: 100vw;
+    height: 120px;
+    background: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F08%2FCool-Backgrounds-Wide-Wallpapers.jpg&f=1&nofb=1');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main #controls {
+    padding-top: 60px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+}
+
+#main #controls input[type="file"] {
+    padding: 16px;
+}
+
+#main #table {
+    height: calc(100vh - 160px);
+    overflow: auto;
+    width: 980px;
+    display: none;
+    align-content: center;
+    margin: auto;
+    margin-top: 24px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#main #table table {
+    width: 100%;
+    height: 90%;
+    border-collapse: collapse;
+}
+
+#main #table table tr {
+    cursor: pointer;
+    height: 9px;
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+#main #table table tr:first-of-type {
+    font-weight: bold;
+}
+
+#main #table table tr:hover {
+    background-color: rgba(114, 114, 114, 0.918);
+}
+
+#main #table table tr td {
+    padding: 5px 0;
+}
+
+#main #table table tr td span {
+    font-size: 12.5px;
+    padding-left: 2px;
+    color: #56ca28;
+}
+
+#main #table table tr td:last-of-type {
+    font-size: 13px;
+}
+
+#main #table table .gone {
+    color: rgb(99 99 115 / 86%);
+}
+
+#main #table table .supergone {
+    color: rgb(37, 37, 37);
+}
+
+#main #table table .undervalued {
+    background: rgb(64 55 84 / 86%);
+}
+
+#main #table table .undraftable {
+    color: rgb(206 52 6 / 86%);
+}
+
+#main #table table .unsure {
+    color: rgb(154 152 66 / 86%);
+}
+
+#main #table table tr.round-divider > td {
+    background: rgb(23, 118, 161);
+    margin-top: -4px;
+    margin-bottom: 8px;
+    height: 4px !important;
+}
